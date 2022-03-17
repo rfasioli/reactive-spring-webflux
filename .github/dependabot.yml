@@ -9,6 +9,4 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-    # Disable rebasing for npm pull requests
-    rebase-strategy: "disabled"
-    
+    open-pull-requests-limit: 0
